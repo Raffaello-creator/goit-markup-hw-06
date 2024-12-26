@@ -278,8 +278,7 @@ header .logo_studio {
   border: none;
   fill: #ffffff;
 }
-.mobile-menu-nav {
-}
+
 .mobile-nav_li {
   display: flex;
   gap: 40px;
@@ -515,5 +514,62 @@ header .logo_studio {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
+  }
+}
+
+/*section one*/
+.sectionone {
+  background-color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+}
+.stl_h_larg {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 216px;
+  margin: 72px auto;
+}
+.stl_button {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.stl_button:hover,
+.stl_button:focus {
+  background-color: #404bbf;
+}
+@media screen and (min-width: 768px) {
+  .sectionone {
+    max-width: 768px;
   }
 }
