@@ -220,6 +220,8 @@ header .logo_studio {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  z-index: 999;
   background-color: #fff;
 
   opacity: 0;
