@@ -522,7 +522,7 @@ header .logo_studio {
   background-color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 188px 0;
+  padding: 72px 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 320px;
@@ -534,7 +534,7 @@ header .logo_studio {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mobile.png);
 }
 .stl_h_larg {
   font-size: 36px;
@@ -571,11 +571,23 @@ header .logo_studio {
 @media screen and (min-width: 768px) {
   .sectionone {
     max-width: 768px;
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
   }
 }
 @media screen and (min-width: 1158px) {
   .sectionone {
-    max-width: 1440px;
+    max-width: 1158px;
+    padding: 188px 0;
+  }
+  .stl_h_larg {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
   }
 }
 
@@ -990,5 +1002,8 @@ footer .logo_studio {
   }
   .footer_media {
     margin-right: 80px;
+  }
+  .footer_subscribe_p {
+    text-align: left;
   }
 }
