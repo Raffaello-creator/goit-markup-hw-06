@@ -578,16 +578,16 @@ header .logo_studio {
       ),
       url(../images/people-office.jpg);
   }
+  .stl_h_larg {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .sectionone {
     max-width: 1158px;
     padding: 188px 0;
-  }
-  .stl_h_larg {
-    font-size: 56px;
-    line-height: 1.07;
-    max-width: 496px;
   }
 }
 
@@ -985,6 +985,9 @@ footer .logo_studio {
     flex-direction: row;
     gap: 24px;
   }
+  .footer_subscribe_p {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1002,8 +1005,5 @@ footer .logo_studio {
   }
   .footer_media {
     margin-right: 80px;
-  }
-  .footer_subscribe_p {
-    text-align: left;
   }
 }
